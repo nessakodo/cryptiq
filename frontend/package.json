@@ -1,12 +1,16 @@
 {
-    "name": "qryptik-frontend",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-      "next": "latest",
-      "react": "latest",
-      "react-dom": "latest",
-      "socket.io-client": "latest"
-    }
+  "name": "qryptik-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "socket.io-client": "latest"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   }
-  
+}

@@ -6,7 +6,7 @@ export default function ChatBox() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   useEffect(() => {
-    socket = io("http://localhost:5000");
+    socket = io("http://localhost:5002");
     socket.on("receive_message", (msg) => {
       setMessages((prev) => [...prev, msg]);
     });

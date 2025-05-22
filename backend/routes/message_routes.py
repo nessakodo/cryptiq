@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from ..crypto.kyber_utils import encrypt, decrypt
-from ..crypto.dilithium_utils import sign, verify
+from crypto.kyber_utils import encrypt, decrypt
+from crypto.dilithium_utils import sign, verify
 
 message_routes = Blueprint('messages', __name__)
 
